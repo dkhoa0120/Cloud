@@ -7,7 +7,8 @@ const connectDB = require('./server/database/connection');
 const app = express();
 
 // log requests
-app.use(morgan('tiny'));
+app.use(morgan('tiny'));  
+//i dont know
 
 // mongodb connection
 connectDB();
